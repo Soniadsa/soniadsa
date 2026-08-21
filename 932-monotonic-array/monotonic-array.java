@@ -11,6 +11,11 @@ class Solution {
                 decreasing =  false;
             }
         }
-        return increasing || decreasing;
+        if(increasing == true || decreasing == true){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
